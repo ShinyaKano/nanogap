@@ -17,7 +17,7 @@ public class My_Plugin_Binary_Publication implements PlugIn {	//Binary conversio
 		int y=0;
 		int y_up=0;								//y of upper side of gap
 		int y_low=0;							//y of lower side of gap
-      	int Thr = 0;   							//Threshold brightness intensity
+		int Thr = 0;   							//Threshold brightness intensity
 		int k=5;								//Find gap if k pixels are successively found.
 		boolean sgn1=false;						//Sign for finding gap
 
