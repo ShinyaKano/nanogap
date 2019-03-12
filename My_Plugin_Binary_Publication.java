@@ -9,10 +9,10 @@ public class My_Plugin_Binary_Publication implements PlugIn {	//Binary conversio
 
 	public void run(String arg) {
 		
-	      	ImagePlus imp = IJ.getImage();
-      		ImageProcessor ip = imp.getProcessor();
-      		int width = ip.getWidth();
-      		int height = ip.getHeight();
+		ImagePlus imp = IJ.getImage();
+		ImageProcessor ip = imp.getProcessor();
+		int width = ip.getWidth();
+		int height = ip.getHeight();
 		int x=0;
 		int y=0;
 		int y_up=0;						//y of upper side of gap
