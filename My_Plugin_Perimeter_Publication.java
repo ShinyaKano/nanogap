@@ -30,6 +30,7 @@ public class My_Plugin_Perimeter_Publication implements PlugIn {//Calculate area
 			}
 		}
 	
+		IJ.run("Options...", "iterations=1 count=1");
 		IJ.run(imp, "Outline", "");
 
 		for (x=0;x<width;x++){				//Count perimeter in pixels
